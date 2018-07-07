@@ -1,32 +1,38 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/classify/classify",
-    "pages/My/My"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "selectedColor": "#000fff",
-    "color": "#cc00ff",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
-      },
-      {
-        "pagePath": "pages/classify/classify",
-        "text": "分类",
-        "iconPath": "",
-        "selectedIconPath": ""
-      }
-    ]
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/classify/classify",
+        "pages/my/my"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "selectedColor": "#000fff",
+        "color": "#cc00ff",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
+            },
+            {
+                "pagePath": "pages/classify/classify",
+                "text": "分类",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "个人简介",
+                "iconPath": "",
+                "selectedIconPath": ""
+            }
+        ]
+    }
 }

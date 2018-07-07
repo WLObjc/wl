@@ -5,13 +5,6 @@ Page({
      * 页面的初始数据
      */
     data: {
-        "movies":[
-            { "url": "/images/555.jpg" },
-            { "url": "/images/666.jpg" },
-            { "url": "/images/777.jpg" },
-            { "url": "/images/888.jpg" },
-            { "url": "/images/999.jpg" }
-        ]
     },
 
     /**

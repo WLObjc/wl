@@ -1,9 +1,40 @@
 /* pages/index/index.wxss */
-.swiper {
-  height: 400rpx;
-  width: 100%;
+/*背景图  */
+.backImage{
+    height: 550rpx;
+    width: 100%;
+    background-color: rebeccapurple;
+    
 }
-.swiper image {
-  height: 100%;
-  width: 100%;
+/*项目简介  */
+.projectInfo{
+    margin-left: 5%;
+    width: 90%;
+    height: 350rpx;
+    margin-top: -100rpx;
+    border-radius: 20rpx;
+    background-color: whitesmoke;
+}
+/*简介图片  */
+.headImg{
+    margin-left: 40rpx;
+    margin-top: 70rpx;
+    width: 150rpx;
+    height: 210rpx;
+}
+/*经典案例  */
+.textView{
+    margin-top: 20rpx;
+    height: 40rpx;
+    width: 90%;
+    margin-left: 5%;
+}
+/*更多按钮  */
+.moreBtn{
+    margin-right: 10rpx;
+    width: 100rpx;
+    height: 40rpx;
+    /* margin-top: -40rpx; */
+    text-align: center;
+    float: right;
 }
