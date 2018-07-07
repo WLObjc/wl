@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/classify/classify"
+        "pages/classify/classify",
+        "pages/my/my"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -17,12 +18,18 @@
             {
                 "pagePath": "pages/index/index",
                 "text": "首页",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
             },
             {
                 "pagePath": "pages/classify/classify",
                 "text": "分类",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "个人简介",
                 "iconPath": "",
                 "selectedIconPath": ""
             }
