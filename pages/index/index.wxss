@@ -13,7 +13,8 @@
     height: 350rpx;
     margin-top: -100rpx;
     border-radius: 20rpx;
-    background-color: whitesmoke;
+    background-color: white;
+    box-shadow: 4rpx 6rpx 10rpx 6rpx gainsboro;
 }
 /*简介图片  */
 .headImg{
@@ -21,6 +22,21 @@
     margin-top: 70rpx;
     width: 150rpx;
     height: 210rpx;
+}
+/*项目标题  */
+.infoViewTitle{
+    margin-left: 230rpx;
+    height: 40rpx;
+    width: 200rpx;
+    margin-top: -226rpx;
+
+}
+/*项目简介  */
+.infoView{
+    margin-top: 25rpx;
+    margin-left: 230rpx;
+    height: 150rpx;
+    width: 300rpx;
 }
 /*经典案例  */
 .textView{
@@ -37,4 +53,10 @@
     /* margin-top: -40rpx; */
     text-align: center;
     float: right;
+}
+/*经典案例图片  */
+.anliImg{
+    height: 300rpx;
+    width: 100%;
+    margin-top: 50rpx;
 }
