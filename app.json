@@ -24,14 +24,14 @@
             {
                 "pagePath": "pages/classify/classify",
                 "text": "分类",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/fenlei.jpg",
+                "selectedIconPath": "/images/fenlei.jpg"
             },
             {
                 "pagePath": "pages/my/my",
                 "text": "个人简介",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/geren.jpg",
+                "selectedIconPath": "/images/geren.jpg"
             }
         ]
     }
