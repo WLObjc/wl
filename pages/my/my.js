@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    titleList: [{ title: "我的团队", img: "/images/555.jpg" }, { title: "我的项目", img: "/images/555.jpg" }, { title: "公司简介", img: "/images/555.jpg"}]
+
   },
 
   /**

@@ -5,7 +5,7 @@ Page({
    */
   data: {
      tradeList:[
-       { name: 'iOS', img: '/images/666.jpg', title: 'iOS作品集' }, { name: 'PHP', img: '/images/777.jpg', title: 'PHP作品集' }, { name: 'JAVA', img: '/images/888.jpg', title: 'JAVA作品集' }, { name: 'H5', img: "/images/999.jpg", title: 'H5作品集' }
+       { name: 'iOS', img: '/images/666.jpg', title: 'iOS作品集', goodsId: '1' }, { name: 'PHP', img: '/images/777.jpg', title: 'PHP作品集', goodsId: '2' }, { name: 'JAVA', img: '/images/888.jpg', title: 'JAVA作品集', goodsId: '3' }, { name: 'H5', img: "/images/999.jpg", title: 'H5作品集', goodsId: '4' }
      ]
   },
 

@@ -1,2 +1,17 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class='HeardView'>
+  <image class='heardImg' src='/images/wo.jpg'></image>
+  <view class='name'>一条吃鸡的狗。</view>
+</view>
+<view class='userMess'>
+  <image class='userImg' src='/images/home.png'></image>
+  <text class='userTitle'>个人信息</text>
+</view>
+<view wx:for="{{titleList}}"wx:for-index='index' wx:for-item='itemName'></view>
+<block wx:for="{{titleList}}">
+   <view class='indeView' hover-class='item-pass' data-id='{item.indeID}}'>
+   <image class='img' src='{{item.img}}'></image>
+   <text class='title'>{{item.title}}</text>
+   </view>
+</block>
+
