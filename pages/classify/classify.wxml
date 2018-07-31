@@ -9,10 +9,6 @@
      <view class='b'>
        <text class='title'>{{item.title}}</text>
      </view>
-     <!-- <view class='imgView'> -->
        <image class='img' src="{{item.img}}"></image>
-     <!-- </view> -->
-        
-     
    </view>
  </block>
