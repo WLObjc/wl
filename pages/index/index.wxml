@@ -7,7 +7,7 @@
     <view class='infoView'>项目简介个梵蒂冈沙发上的发放。。。</view>
 </view>
 <view class='textView'>经典案例
-    <view class='moreBtn'>更多</view>
+    <view class='moreBtn' bindtap='clickBtnView'>更多</view>
 </view>
 <image class='anliImg' src='/images/666.jpg'></image>
 
