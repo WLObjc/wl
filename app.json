@@ -1,38 +1,46 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/classify/classify",
-        "pages/my/my"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
-    },
-    "tabBar": {
-        "selectedColor": "#000fff",
-        "color": "#cc00ff",
-        "backgroundColor": "#ffffff",
-        "list": [
-            {
-                "pagePath": "pages/index/index",
-                "text": "首页",
-                "iconPath": "/images/home.png",
-                "selectedIconPath": "/images/home.png"
-            },
-            {
-                "pagePath": "pages/classify/classify",
-                "text": "分类",
-                "iconPath": "/images/fenlei.jpg",
-                "selectedIconPath": "/images/fenlei.jpg"
-            },
-            {
-                "pagePath": "pages/my/my",
-                "text": "个人简介",
-                "iconPath": "/images/geren.jpg",
-                "selectedIconPath": "/images/geren.jpg"
-            }
-        ]
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/my/my",
+    "pages/Push/push",
+    "pages/Map/map"
+  ],
+  "permission":{
+    "scope.userLocation":{
+      "desc":"展示您要允许的描述"
     }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#000fff",
+    "color": "#cc00ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "/images/fenlei.jpg",
+        "selectedIconPath": "/images/fenlei.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人简介",
+        "iconPath": "/images/geren.jpg",
+        "selectedIconPath": "/images/geren.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

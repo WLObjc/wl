@@ -1,8 +1,8 @@
 <!--pages/classify/classify.wxml-->
-<view wx:for="{{tradeList}}" wx:for-index="position" wx:for-item="itemName"></view>
-<block wx:for='{{tradeList}}'>
+<view>
+<block wx:for="{{tradeList}}" wx:for-index="position" wx:for-item="item" wx:key = 'position'>
    <!-- data-*属性在触发事件时获取  -->
-   <view class='singleTrade' hover-class='item-press' data-id='{{item.goodsId}}'wx:for-index="idx">
+   <view class='singleTrade' hover-class='item-press' data-id='{{position}}' bindtap='click'>
      <view class='a'>
        <text class='name'>{{item.name}}</text>
      </view>
@@ -12,3 +12,4 @@
        <image class='img' src="{{item.img}}"></image>
    </view>
  </block>
+</view>

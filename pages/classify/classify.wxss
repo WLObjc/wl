@@ -10,9 +10,9 @@ page{
   margin-right: 0%; 
   width: 46.3%;
   height: 500rpx;
-  display: inline-block;
+  display: inline-block; 
   border-radius: 5px;
-  overflow: hidden;
+  overflow: hidden; 
 }
 .img {
   /* height: 0%;
